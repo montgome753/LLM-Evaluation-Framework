@@ -1,0 +1,48 @@
+version: "3.9"
+
+services:
+  api:
+    build:
+      context: .
+      target: api
+    image: llm-eval-api:latest
+    ports:
+      - "8000:8000"
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY}
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
+      - MISTRAL_API_KEY=${MISTRAL_API_KEY}
+      - LLM_EVAL_DB_PATH=/data/llm_eval.db
+    volumes:
+      - eval_data:/data
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    restart: unless-stopped
+
+  dashboard:
+    build:
+      context: .
+      target: dashboard
+    image: llm-eval-dashboard:latest
+    ports:
+      - "8501:8501"
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY}
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
+      - MISTRAL_API_KEY=${MISTRAL_API_KEY}
+      - LLM_EVAL_DB_PATH=/data/llm_eval.db
+    volumes:
+      - eval_data:/data
+    depends_on:
+      api:
+        condition: service_healthy
+    restart: unless-stopped
+
+volumes:
+  eval_data:
+    driver: local
