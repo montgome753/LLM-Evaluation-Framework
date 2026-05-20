@@ -98,7 +98,7 @@ def push_to_hub(dataset_dict: dict) -> None:
 
     print(f"Pushing dataset to HuggingFace Hub ({n} samples)…")
     ds_dict.push_to_hub(
-        "vignesh2027/llm-eval-benchmark",
+        "vigneshwar234/llm-eval-benchmark",
         private=False,
         commit_message="Add LLM eval benchmark dataset v1.0",
     )
@@ -110,7 +110,7 @@ def push_to_hub(dataset_dict: dict) -> None:
         api.upload_file(
             path_or_fileobj=str(readme_path),
             path_in_repo="README.md",
-            repo_id="vignesh2027/llm-eval-benchmark",
+            repo_id="vigneshwar234/llm-eval-benchmark",
             repo_type="dataset",
         )
     print("✅ Dataset pushed to HuggingFace!")

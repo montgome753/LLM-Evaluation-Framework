@@ -440,6 +440,6 @@ llm-eval run --model gpt-4o-mini --benchmark mmlu --samples 100
 ### Links
 - 📦 [PyPI](https://pypi.org/project/llm-evaluation-framework/)
 - 🐙 [GitHub](https://github.com/vignesh2027/LLM-Evaluation-Framework)
-- 🤗 [HuggingFace](https://huggingface.co/datasets/vignesh2027/llm-eval-benchmark)
+- 🤗 [HuggingFace](https://huggingface.co/datasets/vigneshwar234/llm-eval-benchmark)
 - 📖 [Docs](https://vignesh2027.github.io/LLM-Evaluation-Framework/)
 """)

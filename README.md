@@ -8,7 +8,7 @@
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![PyPI version](https://img.shields.io/badge/pypi-1.0.0-orange.svg)](https://pypi.org/project/llm-evaluation-framework/)
-[![HuggingFace](https://img.shields.io/badge/🤗-Dataset-yellow)](https://huggingface.co/datasets/vignesh2027/llm-eval-benchmark)
+[![HuggingFace](https://img.shields.io/badge/🤗-Dataset-yellow)](https://huggingface.co/datasets/vigneshwar234/llm-eval-benchmark)
 [![Streamlit](https://img.shields.io/badge/Dashboard-Streamlit-FF4B4B)](https://vignesh2027.github.io/LLM-Evaluation-Framework/)
 [![Stars](https://img.shields.io/github/stars/vignesh2027/LLM-Evaluation-Framework?style=social)](https://github.com/vignesh2027/LLM-Evaluation-Framework/stargazers)
 
@@ -16,7 +16,7 @@
 hallucination rate, and reasoning quality — with a beautiful Streamlit dashboard,
 REST API, CLI, and PDF reports.**
 
-[🚀 Quick Start](#-quick-start) · [📊 Dashboard](#-dashboard) · [📖 Docs](https://vignesh2027.github.io/LLM-Evaluation-Framework/) · [🤗 Dataset](https://huggingface.co/datasets/vignesh2027/llm-eval-benchmark) · [⭐ Star Us](#)
+[🚀 Quick Start](#-quick-start) · [📊 Dashboard](#-dashboard) · [📖 Docs](https://vignesh2027.github.io/LLM-Evaluation-Framework/) · [🤗 Dataset](https://huggingface.co/datasets/vigneshwar234/llm-eval-benchmark) · [⭐ Star Us](#)
 
 ![Demo GIF Placeholder](https://placehold.co/900x450/1a1a2e/e94560?text=LLM+Evaluation+Framework+Demo)
 
@@ -323,7 +323,7 @@ The evaluation benchmark dataset is available on HuggingFace:
 
 ```python
 from datasets import load_dataset
-ds = load_dataset("vignesh2027/llm-eval-benchmark")
+ds = load_dataset("vigneshwar234/llm-eval-benchmark")
 ```
 
 Dataset includes MMLU + TruthfulQA samples with evaluation metadata.
@@ -400,5 +400,5 @@ Made with ❤️ by <a href="https://github.com/vignesh2027">vignesh2027</a>
 <br>
 <a href="https://github.com/vignesh2027/LLM-Evaluation-Framework">GitHub</a> ·
 <a href="https://vignesh2027.github.io/LLM-Evaluation-Framework/">Docs</a> ·
-<a href="https://huggingface.co/datasets/vignesh2027/llm-eval-benchmark">HuggingFace</a>
+<a href="https://huggingface.co/datasets/vigneshwar234/llm-eval-benchmark">HuggingFace</a>
 </div>

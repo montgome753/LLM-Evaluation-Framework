@@ -60,10 +60,10 @@ Each sample has a `prompt`, `expected` answer, `subject`, and `difficulty` field
 from datasets import load_dataset
 
 # Load the full dataset
-ds = load_dataset("vignesh2027/llm-eval-benchmark")
+ds = load_dataset("vigneshwar234/llm-eval-benchmark")
 
 # Load a specific split
-test_set = load_dataset("vignesh2027/llm-eval-benchmark", split="test")
+test_set = load_dataset("vigneshwar234/llm-eval-benchmark", split="test")
 
 # Use with LLM Evaluation Framework
 from llm_eval.benchmarks.custom import CustomBenchmark
